@@ -16,7 +16,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        {/* Мета-теги, стили и прочее, если требуется */}
+      </head>
+      <body className={inter.className}>
+        <header>
+          <div className="container">
+            <div className="header">
+            <div className="logo"><img src="/logo.svg" alt="Logo" /></div>
+             <div className="cart"><img src="/cart.svg" alt="Cart" /> <div className="digitcart">0</div></div>
+            </div>
+          </div>
+
+        </header>
+
+        {children} {/* Содержимое конкретной страницы будет здесь */}
+
+        {/* Добавьте здесь footer, если он нужен */}
+      </body>
     </html>
   );
 }
