@@ -8,7 +8,7 @@ export default function Home() {
           </div>
 
           <div className="product_item_info">
-            <div className="product_item_title">Ботинки серые на высокой платформе 2</div>
+            <div className="product_item_title">Ботинки серые на высокой платформе</div>
             <div className="product_item_price">6 800 Р</div>
           </div>
 
